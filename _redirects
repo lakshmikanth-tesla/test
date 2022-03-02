@@ -1,5 +1,1 @@
-[[redirects]]
-  from = "/blog/*"
-  to = "http://blog.arcana.network/:splat"
-  status = 200
-  force = true
+
