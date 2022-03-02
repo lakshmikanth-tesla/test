@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/blog/*"
-  to = "http://blog.arcana.network/blog/:splat"
+  to = "http://3.111.162.170:splat"
   status = 200
   force = true
