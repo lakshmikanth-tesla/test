@@ -3,4 +3,4 @@ from = "/blog/*"
 to = "https://keen-dubinsky-67f4d5.netlify.app/blog/:splat"
 status = 200
 force = true
-headers = {X-Forwarded-Host = "blog.arcana.network"}
+headers = {X-Forwarded-Host = "https://arcana-network.ghost.io/blog/"}
