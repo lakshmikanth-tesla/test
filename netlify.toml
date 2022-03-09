@@ -1,5 +1,6 @@
 [[redirects]]
-  from = "/blog/*"
-  to = "https://blog.arcana.network/:splat"
-  status = 200
-  force = true
+from = "/blog/*"
+to = "https://keen-dubinsky-67f4d5.netlify.app/blog/:splat"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "https://blog.arcana.network"}
