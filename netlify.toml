@@ -1,16 +1,11 @@
 [[redirects]]
 from = "/blog"
-to = "https://keen-dubinsky-67f4d5.netlify.app/blog/"
+to = "https://arcana-network.ghost.io/blog/"
 status = 200
 force = true
-headers = {X-Forwarded-Host = "arcana-network.ghost.io"}
-
-
-[[redirects]]
+headers = {X-Forwarded-Host = "keen-dubinsky-67f4d5.netlify.app"}<br><br>[[redirects]]
 from = "/blog/*"
-to = "https://keen-dubinsky-67f4d5.netlify.app/blog/:splat"
+to = "https://arcana-network.ghost.io/blog/:splat"
 status = 200
 force = true
-headers = {X-Forwarded-Host = "arcana-network.ghost.io"}
-
-
+headers = {X-Forwarded-Host = "keen-dubinsky-67f4d5.netlify.app"}
