@@ -3,7 +3,9 @@ from = "/blog"
 to = "https://arcana-network.ghost.io/blog/"
 status = 200
 force = true
-headers = {X-Forwarded-Host = "keen-dubinsky-67f4d5.netlify.app"}<br><br>[[redirects]]
+headers = {X-Forwarded-Host = "keen-dubinsky-67f4d5.netlify.app"}
+
+[[redirects]]
 from = "/blog/*"
 to = "https://arcana-network.ghost.io/blog/:splat"
 status = 200
